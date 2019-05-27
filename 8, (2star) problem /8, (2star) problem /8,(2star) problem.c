@@ -248,7 +248,7 @@ int main() {
 				fl = fopen("multiplication_matrix_1_fill.txt", "r");
 				matrix array1 = DynamicArrayFill(high1, width1, fl);
 				fclose(fl);
-				fl = fopen("\multiplication_matrix_2_fill.txt", "r");
+				fl = fopen("multiplication_matrix_2_fill.txt", "r");
 				matrix array2 = DynamicArrayFill(high2, width2, fl);
 				fclose(fl);
 				matrix array3 = ArrayMultiplication(array1, array2);
